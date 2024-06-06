@@ -15,12 +15,15 @@
 <body>
   <div class="flex justify-start">
     <div class="h-16 w-16"><img src="image/pp-removebg-preview (2).png" alt=""></div>
-    <div class="navbar bg-neutral text-neutral-content">
+    <div class="navbar bg-neutral text-neutral-content justify-between">
         <button class="btn btn-ghost text-xl text-white font-extrabold">Sadika Seeds</button>
+        <div>
+          <input type="checkbox" value="synthwave" class="toggle theme-controller"/>
+       </div>
+        
       </div>
-      <div>
-         <input type="checkbox" value="synthwave" class="toggle theme-controller"/>
-      </div>
+      
+      
   </div>
   
    
@@ -28,7 +31,14 @@
     <div class=" flex justify-center items-center">
        
     
-        <img class="transition duration-300 ease-in-out hover:scale-110" src="image/pp-removebg-preview (2).png" alt="">
+      <label class="swap swap-flip text-9xl">
+  
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" />
+        
+        <div class="swap-on"><img src="image/Sadika .png" alt=""></div>
+        <div class="swap-off"><img src="image/pp-removebg-preview (2).png" alt=""></div>
+      </label>
 
     </div>
     <div class=" flex flex-col justify-center items-center">
